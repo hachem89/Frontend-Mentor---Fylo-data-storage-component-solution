@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Thinking process
 
-- So when i first saw the project i realised that in the desktop design there is like a dialogue bubble that contains how much of the storage left. But in the mobile design, the storage left is in a classique box so i thought how can i design this dialogue bubble?. So i used pseudo-element "::after" for the p.storage-left, insert content that is empty, set the height and width of the pseudo-element to 30px each, osition the pseudo-element absolutely to the right of the parent element, place the pseudo-element at the bottom with an offset of -30px, and ==the trick is to apply a linear gradient background, starting with dark blue (0-50%) and transitioning to white (50-100%) diagonally at a 45-degree angle.==
+- So when i first saw the project i realised that in the desktop design there is like a dialogue bubble that contains how much of the storage left. But in the mobile design, the storage left is in a classique box so i thought how can i design this dialogue bubble?. So i used pseudo-element "::after" for the p.storage-left, insert content that is empty, set the height and width of the pseudo-element to 30px each, osition the pseudo-element absolutely to the right of the parent element, place the pseudo-element at the bottom with an offset of -30px, and <mark>the trick is to apply a linear gradient background, starting with dark blue (0-50%) and transitioning to white (50-100%) diagonally at a 45-degree angle</mark>.
   But when i do this it will appear in mobile too so that's why i started with the mobile design and i used media query to style the dialogue bubble for the desktop like this
 
 ```css
