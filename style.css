@@ -46,7 +46,7 @@ body {
   display: flex;
   gap: 2rem;
   justify-content: center;
-  width: 70vw;
+  width: 60vw;
 }
 
 @media (max-width: 700px) {
@@ -59,7 +59,7 @@ body {
 .fylo-container {
   width: 350px;
   background-color: var(--Dark-Blue);
-  padding: 2.5rem;
+  padding: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 50px);
   gap: 2rem 1rem;
@@ -87,7 +87,7 @@ body {
   flex-grow: 1;
   min-width: 350px;
   color: var(--Pale-Blue);
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -161,38 +161,39 @@ p.styled-number span {
 
 p.storage-left {
   align-self: center;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.7rem;
   background-color: white;
-  border-radius: 10px 10px 0 10px;
+  border-radius: 10px;
   color: var(--Grayish-Blue);
   font-weight: var(--fw-700);
   position: absolute;
-  bottom: -50px;
+  bottom: -30px;
 }
 
 @media (min-width: 700px) {
   p.storage-left {
-    top: -60px;
+    top: -50px;
     bottom: auto;
     right: 50px;
+    border-bottom-right-radius: 0;
   }
 
   p.storage-left::after {
     content: "";
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     background: linear-gradient(45deg, var(--Dark-Blue) 0 50%, white 50% 100%);
     position: absolute;
     right: 0;
-    bottom: -30px;
+    bottom: -25px;
   }
 }
 
 p.storage-left span {
-  font-size: 4rem;
+  font-size: 2.5rem;
   color: black;
 }
