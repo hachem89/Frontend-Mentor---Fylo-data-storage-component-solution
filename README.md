@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Thinking process
 
-- So when i first saw the project i realised that in the desktop design there is like a dialogue bubble that contains how much of the storage left. But in the mobile design, the storage left is in a classique box so i thought how can i design this dialogue bubble?. So i used pseudo-element "::after" for the p.storage-left, insert content that is empty, set the height and width of the pseudo-element to 30px each, osition the pseudo-element absolutely to the right of the parent element, place the pseudo-element at the bottom with an offset of -30px, and <mark>the trick is to apply a linear gradient background, starting with dark blue (0-50%) and transitioning to white (50-100%) diagonally at a 45-degree angle</mark>.
-  But when i do this it will appear in mobile too so that's why i started with the mobile design and i used media query to style the dialogue bubble for the desktop like this
+- So when i first saw the project i realised that in the desktop design there is like a dialogue bubble that contains how much of the storage left. But in the mobile design, the storage left is in a classique box so i thought how can i design this dialogue bubble?. So i used pseudo-element "::after" for the p.storage-left, insert content that is empty, set the height and width of the pseudo-element to 30px each, osition the pseudo-element absolutely to the right of the parent element, place the pseudo-element at the bottom with an offset of -30px, and ***the trick is to apply a linear gradient background, starting with dark blue (0-50%) and transitioning to white (50-100%) diagonally at a 45-degree angle***.
+But when i do this it will appear in mobile too so that's why i started with the mobile design and i used media query to style the dialogue bubble for the desktop like this
 
 ```css
 /* for mobile */
@@ -89,7 +89,7 @@ p.storage-left {
 
 - I learned that little trick that i talked about in my [thinking process](#thinking-process)
 
-- I learned that the ==background-size== CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space and it can have multiple values.
+- I learned that the ***background-size*** CSS property sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space and it can have multiple values.
 
 ```css
 /* Keyword values */
@@ -123,7 +123,7 @@ background-size: revert-layer;
 background-size: unset;
 ```
 
-- I learned about ==font-variant-numeric== to style the numbers in a text like this:
+- I learned about ***font-variant-numeric*** to style the numbers in a text like this:
 
 ```html
 <p class="my-text">The year 1776 is an important date in history.</p>
@@ -142,7 +142,7 @@ The oldstyle-nums value is a part of this property and is used to render numbers
 
 ### Continued development
 
-I want to practice more about ==responsive design== because I want to get better at making websites that look good on all kinds of devices, like phones, tablets, and computers. I think it's important to make sure that everyone can easily use and see the things I create online, no matter what device they're using. So, I'm excited to learn more about how to design and build websites that work well and look nice everywhere.
+I want to practice more about ***responsive design*** because I want to get better at making websites that look good on all kinds of devices, like phones, tablets, and computers. I think it's important to make sure that everyone can easily use and see the things I create online, no matter what device they're using. So, I'm excited to learn more about how to design and build websites that work well and look nice everywhere.
 
 ### Useful resources
 
