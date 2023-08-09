@@ -56,6 +56,10 @@ body {
   }
 }
 
+.fylo-container , .storage-container{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0,0.2);
+}
+
 .fylo-container {
   width: 350px;
   background-color: var(--Dark-Blue);
